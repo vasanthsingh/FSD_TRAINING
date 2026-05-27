@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <nav>
+        <ul>
+            <a href="dashboard.html">Dashdoard</a>
+            <a href="add-student.html">Add Student</a>
+            <a href="view-student.html">View Students</a>
+            <a href="index.html">Logout</a>
+        </ul>
+    </nav>
+    <h2>Edit student</h2>
+    <form method="post" action="view-student.html">
+        <label for="Name">Name:</label>
+        <input type="text" required placeholder="Enter student Name">
+        <br><br>
+        <label for="Roll No">Roll No:</label>
+        <input type="text" required placeholder="Enter Roll No">
+        <br><br>
+        <label for="Branch">Branch:</label>
+        <input type="text" required placeholder="Enter Branch">
+        <br><br>
+        <label for="CGPA">CGPA:</label>
+        <input type="number" pattern="/^[1-10]/" min="0" max="10" required placeholder="Enter your cgpa">
+        <br><br>
+        <button type="submit">Add Student</button>
+    </form>
+</body>
+</html>
