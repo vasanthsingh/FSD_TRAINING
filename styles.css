@@ -55,6 +55,7 @@ label{
     font-style: initial;
     padding: 2px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 input{
     width: 100%;
@@ -87,4 +88,8 @@ table{
     border: 2px solid black;
     margin: 3px;
 }
-
+#logout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
