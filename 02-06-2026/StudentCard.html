@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student card</title>
+    <style>
+        #gfg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #cont {
+            display: flex;
+            align-items: center;
+        }
+
+        #main {
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 400px;
+            height: 400px;
+            padding: 30px;
+        }
+
+        /* ex : 6 */
+        #main:hover {
+            transform: scale(1.2);
+        }
+
+        @media (max-width : 768px) {
+            #main {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gfg">
+        <div id="main">
+            <h1>Student Profile Card</h1>
+            <div id="cont">
+                <div id="img">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Profile ">
+                </div>
+                <div id="details">
+                    <h3>Name : Vasanth</h3>
+                    <p>Branch : CSE</p>
+                    <p>Email : Vasanth@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navigation bar</title>
+    <style>
+        #navbar {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        @media (max-width : 768px) {
+            #navbar {
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+
+        /* Ex : 7 */
+        a {
+            text-decoration: none;
+            font-size: 24px;
+            padding: 10px;
+            transition: all 0.3s;
+        }
+
+        #navbar a:hover {
+            color: red;
+            font-size: 28px;
+            text-decoration: underline;
+        }
+
+        /* Exercise 11: Bouncing Text
+Requirements */
+        h1 {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+    </div>
+    <h1>welcome</h1>
+</body>
+
+</html>

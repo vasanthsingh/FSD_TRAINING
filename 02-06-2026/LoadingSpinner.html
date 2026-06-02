@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading spinner</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 80vh;
+            gap: 100px;
+        }
+
+        #loading {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: 5px solid #e5e7eb;
+            border-top: 5px solid red;
+            animation: load 1s linear infinite;
+        }
+
+        @keyframes load {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        #xy {
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            background-color: rgb(255, 0, 0);
+            animation: line 5s linear infinite;
+        }
+
+        @keyframes line {
+            0% {
+                transform: translateX(-50vw);
+            }
+
+            50% {
+                transform: translateX(50vw)
+            }
+
+            100% {
+                transform: translateX(-50vw);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loading">
+
+    </div>
+    <div id="xy">
+
+    </div>
+
+</body>
+
+</html>

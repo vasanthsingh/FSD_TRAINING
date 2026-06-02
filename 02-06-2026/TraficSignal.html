@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic light</title>
+    <style>
+        .lights {
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            background-color: black;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            background-color: aliceblue;
+            border: 2px solid black;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+
+        #red {
+            animation: changer 1s;
+        }
+
+        #yellow {
+            animation: changey 1s;
+            animation-delay: 2s;
+        }
+
+        #green {
+            animation: changeg 1s;
+            animation-delay: 4s;
+        }
+
+        @keyframes changer {
+            from {
+                background-color: white;
+            }
+
+            to {
+                background-color: red;
+            }
+        }
+
+        @keyframes changey {
+            from {
+                background-color: white;
+            }
+
+            to {
+                background-color: yellow;
+            }
+        }
+
+        @keyframes changeg {
+            from {
+                background-color: white;
+            }
+
+            to {
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lights">
+        <div id="red" class="btn">
+
+        </div>
+        <div id="yellow" class="btn">
+
+        </div>
+        <div id="green" class="btn">
+
+        </div>
+    </div>
+</body>
+
+</html>

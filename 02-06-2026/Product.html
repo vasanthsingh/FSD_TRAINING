@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student card</title>
+    <style>
+        #gfg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #cont {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            margin: 20px;
+        }
+
+        button {
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            height: 50px;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            font-size: 24px;
+            border-radius: 10px;
+            background-color: black;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            color: red;
+        }
+
+        #main {
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            height: 330px;
+            padding: 30px;
+        }
+
+        /* ex : 6 */
+        #main img:hover {
+            transform: scale(1.2);
+        }
+
+        @media (max-width : 768px) {
+            #main {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="gfg">
+        <div id="main">
+            <h1>Product Card</h1>
+            <div id="cont">
+                <div id="img">
+                    <img src="https://thf.bing.com/th/id/OIP.MgD7glbCH_5wopd41N1ltgHaHa?w=183&h=183&c=7&r=0&o=7&cb=thfc1falcon&pid=1.7&rm=3
+                        alt=" Product ">
+                </div>
+                <div id=" details">
+                    <h3>Name : Red bull</h3>
+                    <p>Price : 120/-</p>
+                </div>
+            </div>
+            <button>Add to cart</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
