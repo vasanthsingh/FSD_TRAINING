@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <title>Student portal</title>
+
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+
+        .navbar {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+        }
+
+        /* subtle shadow/polish */
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+            border-radius: 0.35rem;
+            margin-top: 0.5rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+        <div class="container-fluid px-4">
+            <div class="d-flex align-content-center ">
+                <img src="https://th.bing.com/th/id/OIP.wa90H1d0tF7nk7qe9Eq9uQAAAA?w=152&h=159&c=7&r=0&o=7&pid=1.7&rm=3"
+                    alt="College logo" style="height: 60px;">
+                <a class="navbar-brand" href="#" style="padding-left: 0;">Student Portal</a>
+            </div>
+
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex justify-content-center">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-5 me-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Computer science</a></li>
+                                <li><a class="dropdown-item" href="#">Mechnanical</a></li>
+                                <li><a class="dropdown-item" href="#">Civil</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary ms-lg-3">Login</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero py-5">
+
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-12">
+                    <h1 class="display-5 fw-bold mb-3" style="text-align: center;">Welcome to Your Student Management
+                        Portal</h1>
+                    <p class="lead text-muted mb-4">
+                        Manage student information effortlessly with a fast, responsive, and user-friendly experience.
+                        Register new students and stay on top of academic activities.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <a href="registration.html" class="btn btn-success btn-lg px-6">Register Now</a>
+                        <a href="dashboard.html" class="btn btn-outline-primary btn-lg px-6">Student Dashboard</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="d-flex flex-row justify-content-around">
+
+            <div class="card " style="width: 20rem;">
+                <img src="https://th.bing.com/th/id/OIP.zyCsDo3gA-E2ULvldJEp8wHaEK?w=305&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center mb-3">Student Registration</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto
+                        distinctio id! Fugiat inventore quas porro nihil earum, minima, impedit aperiam ipsum vel
+                        placeat atque, possimus consequatur tempore delectus? Beatae.</p>
+                    <a href="#" class="btn btn-primary ">Register Now</a>
+                </div>
+            </div>
+            <div class="card " style="width: 20rem;">
+                <img src="https://th.bing.com/th/id/OIP.a56-1hyRg0mGzQZVmuplhwHaFI?w=258&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+                    class="card-img-top" alt="Attendence management photo">
+                <div class="card-body">
+                    <h5 class="card-title text-center mb-3">Attendance Management </h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repudiandae
+                        inventore porro vero, voluptatibus est, mollitia, iure consequatur maxime perferendis rem neque
+                        optio quae pariatur molestias. Veritatis consectetur suscipit eligendi.</p>
+                    <a href="#" class="btn btn-primary">Attendance</a>
+                </div>
+            </div>
+            <div class="card " style="width: 20rem;">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.t3aUxubPNC4mcq1JDgADWwHaHa?r=0&pid=ImgDet&w=203&h=203&c=7&o=7&rm=3"
+                    class="card-img-top" style="height: 250px; width: 250px; margin: 5px;" alt="Image">
+                <div class="card-body ">
+                    <h5 class="card-title text-center mb-3">Results Management </h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam hic nisi
+                        voluptatum nostrum cupiditate qui eaque, laboriosam a, ab accusantium quibusdam vero dolorem
+                        expedita. Incidunt porro ad velit ex deleniti.</p>
+                    <a href="#" class="btn btn-primary">Results</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © <span id="year"></span> Student Management Portal. All Rights Reserved.
+            <div class="mt-3 d-flex justify-content-center gap-2 flex-wrap">
+                <a href="https://facebook.com" class="btn btn-outline-primary btn-sm" target="_blank"
+                    aria-label="Facebook">Facebook</a>
+                <a href="https://twitter.com" class="btn btn-outline-info btn-sm" target="_blank"
+                    aria-label="Twitter">Twitter</a>
+                <a href="https://instagram.com" class="btn btn-outline-danger btn-sm" target="_blank"
+                    aria-label="Instagram">Instagram</a>
+                <a href="https://linkedin.com" class="btn btn-outline-secondary btn-sm" target="_blank"
+                    aria-label="LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+
+
+    <section id="register" class="py-5" style="display: none;">
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-xl-8">
+                    <div class="text-center mb-4">
+                        <h2 class="fw-bold">Student Registration Form</h2>
+                        <p class="text-muted mb-0">Fill in the details below to register successfully.</p>
+                    </div>
+
+                    <form class="needs-validation" novalidate id="studentRegistrationForm">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body p-4">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="fullName" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" name="fullName"
+                                            placeholder="Enter full name" required>
+                                        <div class="invalid-feedback">Please enter your full name.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="rollNumber" class="form-label">Roll Number</label>
+                                        <div class="input-group has-validation">
+                                            <span class="input-group-text">RN</span>
+                                            <input type="text" class="form-control" id="rollNumber" name="rollNumber"
+                                                placeholder="e.g., 23B81A05" aria-describedby="rollHelp" required>
+                                        </div>
+                                        <div id="rollHelp" class="form-text">Your unique roll number.</div>
+                                        <div class="invalid-feedback">Please enter your roll number.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="example@gmail.com" required>
+                                        <div class="invalid-feedback">Please provide a valid email.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="mobile" class="form-label">Mobile Number</label>
+                                        <div class="input-group has-validation">
+                                            <span class="input-group-text">+91</span>
+                                            <input type="text" class="form-control" id="mobile" name="mobile"
+                                                inputmode="numeric" pattern="[0-9]{10}" maxlength="10" minlength="10"
+                                                placeholder="10 digit mobile" required>
+                                            <div class="invalid-feedback">Mobile number must be exactly 10 digits.</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="gender" class="form-label">Gender</label>
+                                        <select class="form-select" id="gender" name="gender" required>
+                                            <option value="" selected disabled>Select Gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please select your gender.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="branch" class="form-label">Branch</label>
+                                        <select class="form-select" id="branch" name="branch" required>
+                                            <option value="" selected disabled>Select Branch</option>
+                                            <option>Computer Science</option>
+                                            <option>Mechanical</option>
+                                            <option>Civil</option>
+                                            <option>Electrical</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please select your branch.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="dob" class="form-label">Date of Birth</label>
+                                        <input type="date" class="form-control" id="dob" name="dob" required>
+                                        <div class="invalid-feedback">Please select your date of birth.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="photo" class="form-label">Upload Photo</label>
+                                        <input class="form-control" type="file" id="photo" name="photo" accept="image/*"
+                                            required>
+                                        <div class="invalid-feedback">Please upload a photo.</div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="address" class="form-label">Address</label>
+                                        <textarea class="form-control" id="address" name="address" rows="3"
+                                            placeholder="House No, Street, City" required></textarea>
+                                        <div class="invalid-feedback">Please enter your address.</div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="on" id="terms"
+                                                name="terms" required>
+
+                                            <label class="form-check-label" for="terms">
+
+                                                I agree to the Terms and Conditions.
+                                            </label>
+                                            <div class="invalid-feedback d-block">You must accept the Terms and
+                                                Conditions.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-column flex-sm-row gap-2 mt-4">
+                                    <button class="btn btn-primary btn-lg" type="submit">Submit Registration</button>
+                                    <button class="btn btn-outline-secondary btn-lg" type="reset">Reset</button>
+                                </div>
+
+                                <div class="mt-3 small text-muted">
+                                    Tip: Use a valid email format and enter a 10-digit mobile number.
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            (function () {
+                const form = document.getElementById('studentRegistrationForm');
+                if (!form) return;
+
+
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                    fault();
+                }, false);
+                const mobileInput = document.getElementById('mobile');
+
+                if (mobileInput) {
+                    mobileInput.addEventListener('input', () => {
+                    });
+                }
+            })();
+        </script>
+    </section>
+</body>
+
+
+</html>
