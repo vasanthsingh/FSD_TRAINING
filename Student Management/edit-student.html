@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <nav>
+        <ul>
+            <a href="dashboard.html">Dashdoard</a>
+            <a href="add-student.html">Add Student</a>
+            <a href="view-student.html">View Students</a>
+            <a href="logout.html">Logout</a>
+        </ul>
+    </nav>
+
+    <div id="f">
+        <form onsubmit="editStudent(); return false;" action="#">
+
+            <h1>Edit student</h1>
+            <label for="name">Name:</label>
+            <input id="name" type="text" required placeholder="Enter student Name">
+            <br><br>
+            <label for="roll">Roll No:</label>
+            <input id="roll" type="text" required placeholder="Enter Roll No">
+            <br><br>
+            <label for="branch">Branch:</label>
+            <input id="branch" type="text" required placeholder="Enter Branch">
+            <br><br>
+            <label for="cgpa">CGPA:</label>
+            <input id="cgpa" type="number" pattern="/^[1-10]/" min="0" max="10" required placeholder="Enter your cgpa">
+            <br><br>
+            <div id="btn">
+                <button type="submit">Save Student</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
