@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar bg-white navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="d-flex align-content-center">
+                <img src="data:image/png;base64,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"
+                    class="me-2" style="height: 56px;" alt="logo">
+                <a class="navbar-brand" href="index.html">Event Management Portal</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex justify-content-center col-lg-4 gap-5">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="EventRegistration.html">Registration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="btn btn-primary me-3">Login</button>
+        </div>
+    </nav>
+    <section id="contact" class="container my-5">
+        <h2 class="mb-4">Contact Us</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Send Us a Message</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <br>
+                <div class="col-md-6">
+                    <h4>Coordinator Details</h4>
+                    <p><strong>Event Coordinator:</strong>Vasanth</p>
+                    <p><strong>Email:</strong> Vasanth@gmail.com</p>
+                    <p><strong>Phone:</strong> +91 98765 43210</p>
+
+                    <h4 class="mt-4">Follow Us</h4>
+                    <a href="https://facebook.com" target="_blank" class="me-3">
+                        <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="me-3">
+                        <i class="bi bi-twitter" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="me-3">
+                        <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank">
+                        <i class="bi bi-linkedin" style="font-size: 1.5rem;"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
