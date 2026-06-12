@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Weather App Dashboard</h1>
+    <div class="weather-container">
+        <label for="City Name">City Name:</label>
+        <input type="text" id="city" placeholder="Enter city name">
+        <br><br>
+        <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <div id="weather-info">
+        <label for="Temperature">Temperature:</label>
+        <span id="temperature"></span>
+        <br><br>
+        <label for="Humidity">Humidity:</label>
+        <span id="humidity"></span>
+        <br><br>
+        <label for="Description">Description:</label>
+        <span id="description"></span>
+    </div>
+    //i need 5 days weather forecast
+    <div id="forecast">
+        <h2>5-Day Forecast</h2>
+        <div id="forecast-info"></div>
+    </div>
+</body>
+
+</html>

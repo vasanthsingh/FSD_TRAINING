@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "name": "vasanth",
+      "email": "vasanth@gmail.com",
+      "password": "123",
+      "id": "-rodVcpD8DE"
+    },
+    {
+      "name": "vasanth",
+      "email": "vasanth1@gmail.com",
+      "password": "123",
+      "id": "P8VFVgHmhUo"
+    }
+  ],
+  "students": [
+    {
+      "sname": "vasanth",
+      "sroll": "23",
+      "sbranch": "cse",
+      "cgpa": "9",
+      "id": "Vy_O-CBz2Fw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
